@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+}
+.home {
+  background-color: lightgrey;
+  width: 20rem;
+  margin: auto;
+  padding: 1.25rem;
+}
+h1 {
+  text-align: center;
+}
+.one {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+}
+.two {
+  text-align: center;
+  border: solid;
+  border-width: 0.25px;
+  border-radius: 5px;
+  width: 18rem;
+  padding: 0.35rem;
+  background-color: white;
+}
+button {
+  border-color: rgb(76, 187, 23);
+  border-width: 0.5px;
+  border-radius: 5px;
+  background-color: rgb(76, 187, 23);
+  padding: 0.5rem 4rem;
+  color: white;
+  width: 18rem;
+  font-size: 0.95rem;
+}
+
+a {
+  color: rgb(76, 187, 23);
+  text-decoration: none;
+}
+.four,
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: flex-right;
+  align-items: flex-left;
+  list-style: none;
+}
+.input {
+  width: 18rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+a,
+.account {
+  display: flex;
+  justify-content: center;
+}
+
+.hr {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowwrap;
+  text-align: center;
+}
